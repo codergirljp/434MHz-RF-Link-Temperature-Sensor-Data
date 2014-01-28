@@ -8,7 +8,7 @@
   http://codergirljp.blogspot.com/
 */
 
-#define aref_voltage 3.36   // tie 3.3V to ARef and measure it with a multimeter
+#define aref_voltage 3.4    // tie 3.3V to ARef and measure it with a multimeter
  
 int tempSensorPin = A0;     // the analog input pin for the temperature sensor voltage reading
 int sensorValue = 0;        // variable to store the value coming from the sensor
